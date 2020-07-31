@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    height: 1200px;
+    background-color: rgb(239 239 239);
+}
+.photo{
+    height: 600px;
+}
+#photo{
+    height: 400px;
+}
+.header{
+    height: 65px;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.web-logo{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 275px;
+}
+.instagram{
+    padding-right: 140px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+
+}
+.search{
+    margin: auto;
+}
+.search > input{
+    font-family: Arial, FontAwesome;
+    text-align: center;
+    height: 25px;
+    width: 193px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    background-color: rgb(239 239 239);
+}
+.nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 275px;
+}
+#compass{
+    padding-left: 140px;
+}
+/* 
+#img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+} */
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.post{
+    margin-top: 58px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+}
+.post-header{
+    height: 53px;
+    display: flex;
+}
+.user-info{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.user-photo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-image: url(images/donkey.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+}
+.user-name{
+    margin: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.photo{
+    background-image: url(images/img1.JPG);
+    height: 600px;
+    width: 512px;
+    background-size: cover;
+    background-position: right;
+
+}
+.likes-msg{
+    font-family: 'Assistant', sans-serif;
+}
+.icons{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+.left{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+}
+.right{
+    padding-right: 18px;
+}
+.likes{
+    display: flex;
+    width: 9%;
+    justify-content: space-between;
+    margin-left: 18px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 18px;
+    font-size: 16px;
+}
+hr{
+    width: 94%;
+    border-color: #fffcfc;
+    margin-bottom: 0;
+}
+.add-com{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 18px 0 18px;
+    height: 50px;
+
+}
+.add-com > input{
+    width: 93%;
+    height: 38px;
+    border: none;
+}
