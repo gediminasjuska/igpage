@@ -119,7 +119,7 @@ a{
 .right{
     padding-right: 18px;
 }
-#hover:hover{
+#hover:hover, #heart:hover{
     cursor: pointer;
 }
 .likes{
