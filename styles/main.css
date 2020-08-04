@@ -1,0 +1,116 @@
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.post{
+    margin-top: 140px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+}
+.post-header{
+    height: 53px;
+    display: flex;
+}
+.user-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.user-photo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/donkey.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+}
+.user-name{
+    margin: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.photo{
+    background-image: url(../images/img1.JPG);
+    height: 600px;
+    width: 512px;
+    background-size: cover;
+    background-position: right;
+
+}
+.likes-msg{
+    font-family: 'Assistant', sans-serif;
+}
+.icons{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+.left{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+}
+.right{
+    padding-right: 18px;
+}
+#hover:hover, #heart:hover{
+    cursor: pointer;
+}
+.likes{
+    display: flex;
+    width: 45px;
+    justify-content: space-between;
+    margin-left: 18px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 18px;
+    font-size: 16px;
+}
+hr{
+    width: 94%;
+    border-color: #fffcfc;
+    margin-bottom: 0;
+}
+.add-com{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 18px 0 18px;
+    height: 50px;
+
+}
+.add-com > input{
+    width: 93%;
+    height: 38px;
+    border: none;
+    font-size: 15px;
+}
+.add-com > input::-moz-focus-outer{
+    outline: none;
+}
+.add-com > input:focus{
+    outline: none;
+}
+.page-up{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    top: 5;
+    bottom: 5;
+    right: 50px;
+    bottom: 50px;
+    font-family: 'Assistant', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    border: 1px solid #d4d4d4;
+    display: none;
+}

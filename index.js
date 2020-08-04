@@ -1,5 +1,3 @@
-// make delete btn becoming red on hover
-
 const addCom = document.querySelector('#addCom')
 const newCom = document.createElement('li')
 const add = document.querySelector('ul')
@@ -12,7 +10,7 @@ let search2 = document.querySelector('#search')
 let instagram = document.querySelector('.instagram')
 let scrollUp = document.querySelector('.page-up')
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()}
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {

@@ -1,0 +1,52 @@
+.header{
+    height: 75px;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s all;
+}
+.web-logo{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    align-items: center;
+}
+.instagram{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    transition: 0.1s linear;
+}
+.search{
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.3s;
+
+}
+#search{
+    transition: 0.3s;
+}
+
+.search > input{
+    font-family: Arial, FontAwesome;
+    text-align: center;
+    height: 25px;
+    width: 193px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    background-color: rgb(239 239 239);
+}
+.nav{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+#nav-button{
+width: 36px;
+text-align: center;
+}
